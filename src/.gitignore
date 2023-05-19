@@ -1,0 +1,14 @@
+# Arquivos gerados pelo editor
+.vscode/
+.idea/
+
+# Arquivos de build
+/dist/
+/build/
+
+# Dependências geradas pelo gerenciador de pacotes
+/node_modules/
+
+# Arquivos de configuração sensíveis
+config.json
+.env
