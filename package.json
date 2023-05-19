@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": " tsx src/server.ts",
+    "start": "node dist/server.js",
     "dev": "tsx watch src/server.ts",
-    "build": "tsup src/server.ts"
+    "build": "tsup src/server.ts",
+    "predeploy": "npm run build",
+    "deploy": "npm run start"
   },
   "author": "",
   "license": "ISC",
